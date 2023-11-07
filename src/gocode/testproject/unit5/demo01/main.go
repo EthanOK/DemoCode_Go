@@ -4,7 +4,12 @@ import "fmt"
 
 func main() {
 	c := ADD(2, 3)
+
 	fmt.Println(c)
+
+	d := add(10, 5)
+
+	fmt.Println(d)
 }
 
 // 大小写字母

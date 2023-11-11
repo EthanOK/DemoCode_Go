@@ -1,4 +1,4 @@
-module gocode.ethan/ethereum-dev
+module gocode.ethan/democode-go
 
 go 1.20
 

@@ -1,5 +1,9 @@
 # GoProject
 
+## Create "demo" Go Project
+
+`go mod init demo`
+
 ## 安装第三方包
 
 go get

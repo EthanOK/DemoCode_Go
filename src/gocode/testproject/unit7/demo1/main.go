@@ -41,6 +41,8 @@ func main() {
 	// 最后一个空间的地址
 	fmt.Printf("%p \n", &arr[9])
 
+	test2D_Array()
+
 }
 
 func sum(s []int) int {
@@ -49,4 +51,21 @@ func sum(s []int) int {
 		sum += v
 	}
 	return sum
+}
+
+func test2D_Array() {
+	var array_2d [2][3]int
+	array_2d[0] = [...]int{1, 2, 3}
+	array_2d[1] = [...]int{4, 5, 6}
+
+	// [[1 2 3] [4 5 6]]
+	fmt.Println(array_2d)
+
+	for k, v := range array_2d {
+		for k2, v2 := range v {
+			fmt.Printf("arr[%d][%d] = %d \t", k, k2, v2)
+		}
+		fmt.Println()
+
+	}
 }

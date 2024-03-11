@@ -27,9 +27,17 @@ func main() {
 
 	(*t3).Name = "王五"
 	(*t3).Age = 22
-	(*t3).School = "上海大学"
+	// 为符合程序员编程，go提供了简化的赋值方式
+	t3.School = "浙江大学"
 
 	fmt.Println(*t3)
+
+	// 声明方式 4
+	var t4 *Teacher = &Teacher{}
+	t4.Name = "赵六"
+	t4.Age = 24
+	t4.School = "上海大学"
+	fmt.Println(*t4)
 
 }
 

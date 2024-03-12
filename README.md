@@ -1,3 +1,6 @@
+## Learn Go Basic 
+https://www.bilibili.com/video/BV1Pg41187AS?p=64
+
 # GoProject
 
 ## Create "demo" Go Project
